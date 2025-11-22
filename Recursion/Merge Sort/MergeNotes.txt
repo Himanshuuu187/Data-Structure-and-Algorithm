@@ -1,0 +1,8 @@
+
+
+
+
+
+            Step 1: Divide array into 2 parts
+            step 2: Get both the parts sorted vis recursion
+            step 3 : Merge the sorted parts
