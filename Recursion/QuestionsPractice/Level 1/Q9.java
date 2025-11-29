@@ -1,32 +1,32 @@
-public class Q9 {
-// 
-    public static int Rev(int n, int rev) {
-        if (n == 0) {
-            return rev;
-        }
-        int rem = n % 10;
-        return Rev(n / 10, rev * 10 + rem);
-    }
-// 
-    public static boolean palen(int n) {
-        return n == Rev(n, 0);
-    }
-// 
-    public static void main(String[] args) {
-        int num = 151;
-        if (palen(num)) {
-            System.out.println(num + " is a Palindrome.");
-        } else {
-            System.out.println(num + " is NOT a Palindrome.");
-        }
-    }
-}
+// public class Q9 {
 
+    // public static int Rev(int n, int rev) {
+        // if (n == 0) {
+            // return rev;
+        // }
+        // int rem = n % 10;
+        // return Rev(n / 10, rev * 10 + rem);
+    // }
+
+    // public static boolean palen(int n) {
+        // return n == Rev(n, 0);
+    // }
+
+    // public static void main(String[] args) {
+        // int num = 151;
+        // if (palen(num)) {
+            // System.out.println(num + " is a Palindrome.");
+        // } else {
+            // System.out.println(num + " is NOT a Palindrome.");
+        // }
+    // }
+// }
+// 
 
 
 //                                              Second Approach
 
-/* 
+
 public class Q9{
     public static void main(String[] args) {
         rv(151);
@@ -53,4 +53,3 @@ public class Q9{
     }
 }
 
-*/

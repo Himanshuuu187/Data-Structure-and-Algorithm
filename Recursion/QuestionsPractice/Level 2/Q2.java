@@ -52,8 +52,10 @@ public class Q2{
         }else{
             return LS(arr,target,s+1);
         }
+
+        return Linear;
     
-    return Linear;
+    
     
     }
 }
