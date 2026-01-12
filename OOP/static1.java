@@ -21,3 +21,4 @@ public class static1{
         static1.population += 1;
     }
 }
+

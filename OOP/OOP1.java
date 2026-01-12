@@ -1,3 +1,5 @@
+/*
+
 package OOP;
 
 import java.sql.Struct;
@@ -97,3 +99,37 @@ class Student {
     }
 
 }
+*/
+
+// 
+// package OOP;
+// 
+// import java.util.Arrays;
+// import java.util.ArrayList;
+// 
+// class Student{
+    // String Name;
+    // char Grades;
+// 
+    // void display(){
+        // System.out.println("Name is : " + this.Name);
+        // System.out.println("Grade: " + this.Grades);
+    // }
+// 
+    // Student(String N,char Grd){
+        // this.Name = N;
+        // this.Grades = Grd;
+// 
+    // }
+// 
+// }
+// 
+// public class OOP1{
+    // public static void main(String[] args) {
+        // Student Himanshu = new Student("Himanshu",'A');
+        // Himanshu.display();
+            //    
+    //    
+    //    
+    // }
+// }
