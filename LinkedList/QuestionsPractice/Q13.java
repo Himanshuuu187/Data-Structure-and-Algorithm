@@ -16,7 +16,7 @@ public class Q13 {
         Node s = head;
         Node f = head;
         while (f != null && f.next != null) {
-            s = s.next;
+            s = s.next;9
             f = f.next.next;
         }
         return s;
